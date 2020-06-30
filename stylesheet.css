@@ -1,0 +1,110 @@
+/*共通のCSS*/
+
+header {
+background-color: #ffab85;
+height: 130px;
+}
+
+.logo {
+float: left;
+height: 80px; 
+padding: 20px;
+}
+
+header p {
+float: left;
+font-size: 20px;
+font-weight: bold;
+line-height: 75px;
+}
+
+.title {
+float: left;
+height: 100px;
+font-size: 50px;
+line-height: 100px;
+padding: 15px 50px;
+}
+
+.header-link {
+float: right;
+margin: 10px;
+}
+
+header a {
+display: block;
+text-decoration: none;
+color: black;
+padding: 2px;
+}
+
+h1 {
+padding: 0 20px;
+color: #ffab85;
+border-bottom: solid 2px #ffab85;
+}
+
+.main-wrapper {
+width: 900px;
+height: 800px;
+margin: 0 auto;
+}
+
+.main-contents {
+}
+
+footer {
+text-align: center;
+background-color: #ffab85;
+height: 50px;
+}
+
+footer a {
+
+text-decoration: none;
+color: black;
+}
+
+/*newsのCSS*/
+.main-content {
+float: left;
+padding-bottom: 10px;
+width: 50%;
+position: relative;
+}
+
+.main-content p {
+width: 100px;
+}
+
+.main-content img {
+width: 330px;
+display: block;
+
+}
+
+.main-content a {
+text-decoration: none;
+color: black;
+position: absolute;
+top: 250px;
+padding: 15px 70px;
+background-color: #fff;
+font-weight: bold;
+opacity: 0.7;
+}
+
+/*aboutのCSS*/
+
+
+/*worksのCSS*/
+.work {
+float: left;
+padding: 30px;
+}
+
+.work img {
+display: block;
+}
+
+/*contactのCSS*/
